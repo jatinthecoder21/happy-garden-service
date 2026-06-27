@@ -131,7 +131,7 @@
 
   /* ----- Before / After slider ----- */
   document.querySelectorAll('.ba').forEach(function (ba) {
-    var after = ba.querySelector('.after');
+    var after = ba.querySelector('img.after');
     var handle = ba.querySelector('.handle');
     var grip = ba.querySelector('.grip');
     var range = ba.querySelector('input[type="range"]');
